@@ -6,7 +6,7 @@
 
 body{ 
   font-family: 'Roboto', sans-serif; 
-  background: url('/images/background.jpg')no-repeat right top fixed; 
+  background: url('../images/background.jpg')no-repeat right top fixed; 
   background-size: cover;
   
 }
