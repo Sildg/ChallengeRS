@@ -1,0 +1,265 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&family=Roboto:wght@300;700&display=swap');
+
+body{ 
+  font-family: 'Roboto', sans-serif; 
+  background: url('/images/background.jpg')no-repeat right top fixed; 
+  background-size: cover;
+  
+}
+
+.all-divs{
+  animation-name: slide;
+  animation-duration: 3000ms;
+  animation-fill-mode: forwards;
+  transform: translateY(-3rem);
+  animation-timing-function: ease;
+}
+.top-header h1{ 
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  margin-top: 12.5rem;
+  margin-bottom: 3.1rem;
+  font-size: 5rem;
+}
+
+.top-header p{
+  background-color: rgba(255, 255, 255, 0.63);
+  padding: 1.8rem;
+  border: solid 8px rgb(172, 199, 255);
+  border-radius: 20px;
+  font-size: 1.8rem;
+  max-width: 80%;
+  text-align: center;
+  margin-left: 7rem;
+  margin-bottom: 2rem;
+  font-family: 'Roboto', sans-serif;
+ 
+}
+
+#images-header{
+  
+  display: flex;
+  width: 35rem;
+  height: 20rem;
+  right: 30%;
+  position: relative;
+  left: 30%;
+
+}
+
+#images-header img {
+  border-radius: 8px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 2000ms;
+  position: absolute;
+  align-items: center;
+  text-align: center;
+}
+
+#images-header img.selected{
+  opacity: 1;
+}
+.main-top{
+  text-align: center;
+}
+
+.main-top img{
+  text-align: center;
+  margin: 2rem;
+  border-radius: 1rem;
+}
+
+.main-top p{
+  background-color: rgba(255, 255, 255, 0.63);
+  border: solid 8px rgb(172, 199, 255);
+  border-radius: 20px;
+  font-size: 1.8rem;
+  padding: 1.8rem;
+  max-width: 80%;
+  text-align: center;
+  margin-left: 7rem;
+  margin-bottom: 2rem;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 2rem;
+}
+
+.main-middle p {
+  background-color: rgba(255, 255, 255, 0.63);
+  padding: 1.8rem;
+  border: solid 8px rgb(172, 199, 255);
+  border-radius: 20px;
+  font-size: 1.8rem;
+  max-width: 80%;
+  text-align: center;
+  margin-left: 7rem;
+  margin-bottom: 2rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.main-bottom h3{
+  font-family: 'Poppins', sans-serif;
+  font-size: 3rem;
+  padding-bottom: 2rem;
+}
+.main-bottom{
+  text-align: center;
+}
+.main-bottom p {
+  background-color: rgba(255, 255, 255, 0.63);
+  padding: 1.8rem;
+  border: solid 8px rgb(172, 199, 255);
+  border-radius: 20px;
+  font-size: 1.8rem;
+  max-width: 80%;
+  margin-left: 7rem;
+  margin-bottom: 2rem;
+  font-family: 'Roboto', sans-serif;
+}
+.main-bottom img{
+  margin-bottom: 2rem;
+  border-radius: 1rem;
+}
+
+footer{
+  font-size: 1.8rem;
+  max-width: 80%;
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-left: 7rem;
+  font-family: 'Roboto', sans-serif;
+}
+footer{
+  background-color: rgba(255, 255, 255, 0.63);
+  padding: 1.8rem;
+  border: solid 8px rgb(172, 199, 255);
+  border-radius: 20px;
+  font-size: 1.8rem;
+  max-width: 80%;
+  text-align: center;
+  margin-left: 7rem;
+  margin-bottom: 2rem;
+  font-family: 'Roboto', sans-serif;
+}
+.link:hover{
+  background-color:rgba(95, 159, 255, 0.952);
+}
+a:hover{
+  color: rgba(0, 4, 255, 0.952);
+
+}
+.link{
+  background-color: rgba(255, 255, 255, 0.63);
+  padding: 1.8rem;
+  border: solid 8px rgb(172, 199, 255);
+  border-radius: 20px;
+  font-size: 1.8rem;
+  max-width: 80%;
+  text-align: center;
+  margin-left: 7rem;
+  margin-bottom: 2rem;
+  font-family: 'Roboto', sans-serif;
+  transition: 500ms;
+
+}
+a{
+  text-decoration: none;
+  color: black;
+  transition: 500ms;
+}
+
+
+@keyframes slide {
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
+/*------CARDS----------*/
+
+
+.cards{
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  gap: 20px;
+  text-align: center;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  
+  
+}
+.card{
+  border: solid 8px rgb(172, 199, 255);
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.63);
+  transition: 1000ms;
+}
+
+.card:hover{
+  background-color: rgba(95, 159, 255, 0.952);
+}
+
+.card img{
+  height: 100%;
+  max-height: 7rem;  
+}
+
+.head{
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  margin-bottom: 0.6rem;
+  font-size: 1.0rem;
+  display: grid;
+  grid-template-columns: 1fr 100fr;
+  gap: 1rem;
+}
+
+.head h1{
+  margin-right: 20rem;
+
+}
+
+.head a img{
+  margin-left: 15rem ;
+  cursor: pointer;
+  color: black;
+  
+}
+
+#action-button{
+  cursor: pointer;
+  background-color: white;
+  transition: 500ms;
+}
+#action-button:hover{
+  color: rgba(0, 4, 255, 0.952);
+}
+
+.hidden{
+  display: none;
+}
+
+input{
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 8px;
+  border: 0;
+  transition: 500ms;
+  margin-top: 2rem;
+}
+
+input:hover{
+  background: rgba(5, 105, 255, 0.952);
+}

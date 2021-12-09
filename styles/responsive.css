@@ -1,0 +1,104 @@
+@media only screen and (max-width: 900px){
+  
+  .top-header h1{
+    margin-top: 10rem;
+    margin-bottom: 3.1rem;
+    font-size: 3.5rem;
+  }
+  
+  .top-header p{
+    margin: 1rem;
+    margin-left: 2rem;
+
+  }
+  #images-header{
+    left: 5.6%;
+    right: 100%;
+  }
+  
+  #images-header{
+    max-width: 100%;
+    max-height: 100%;
+    width: 37rem;
+    height: 15rem;
+  }
+
+  .main-top p{
+    margin: 1rem;
+    margin-left: 2rem;
+  }
+
+  .main-top img{
+    width: 21rem;
+    height: 20rem;
+  }
+  .main-middle{
+    margin-left: 2rem;
+
+  }
+  .main-bottom{
+    margin-left: 2rem;
+
+  }
+  .main-middle p{
+    margin-left: 2rem;
+    margin: 1rem;
+  }
+  .main-bottom p{
+    margin-left: 2rem;
+    margin: 1rem;
+  }
+  .main-bottom img{
+    width: 21rem;
+    height: 20rem;
+  }
+
+  footer{
+    margin: 1rem;
+    margin-left: 2rem;
+
+  }
+
+  .link{
+    margin: 1rem;
+    margin-left: 2rem;
+
+  }
+
+
+  
+  /*-------PAGE 2---------*/
+  .cards{
+    display: block;  
+    margin-right: 2rem;
+    margin-left: 2rem;
+  }
+  .card{
+    margin: 2rem;
+  }
+  .head{
+    justify-content: center;
+  }
+  .head h1{
+    padding-right: 3rem;
+  }
+  .head img{
+    padding-right: 5rem;
+    padding-top: 2.7rem;
+    height: 2rem;
+    width: 2rem;
+  }
+
+}
+
+@media only screen and (max-width: 620px){
+  #images-header{
+  margin-left: -4rem;
+  }
+}
+
+@media only screen and (max-width: 375px){
+  #images-header{
+    margin-left: -8rem;
+  }
+}
